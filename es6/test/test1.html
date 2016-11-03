@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="test"></div>
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+		class Cat {
+			constructor(){
+				console.log("constructor");
+			}
+			jump(somewhere){
+				somewhere = somewhere || "";
+				console.log("jump to " + somewhere);
+			}
+		}
+		let cat = new Cat();
+		cat.jump("here.");
+
+		{
+			let aa = "first",
+				bb = "second",
+				str = "";
+			str = `this time is the ${aa} time,and the next time will be the ${bb} time`;
+			console.log(str);
+
+			let newDom = `<ul>
+							<li>${aa}</li>
+							<li>${bb}</li>
+						</ul>`;
+			$("body").append(newDom);
+		}
+
+	</script>
+</body>
+</html>

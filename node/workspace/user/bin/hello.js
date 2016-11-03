@@ -1,0 +1,1 @@
+console.log('hello zhangsan',process.argv[2]);

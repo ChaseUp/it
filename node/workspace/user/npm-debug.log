@@ -1,0 +1,56 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'd:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'd:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'link' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose linkPkg f:\it\node\workspace\user
+5 silly gentlyRm C:\Users\chenjian\AppData\Roaming\npm\node_modules\hello is being purged
+6 verbose gentlyRm don't care about contents; nuking C:\Users\chenjian\AppData\Roaming\npm\node_modules\hello
+7 silly vacuum-fs purging C:\Users\chenjian\AppData\Roaming\npm\node_modules\hello
+8 silly vacuum-fs quitting because other entries in C:\Users\chenjian\AppData\Roaming\npm\node_modules
+9 verbose link build target C:\Users\chenjian\AppData\Roaming\npm\node_modules\hello
+10 verbose install where, what [ 'f:\\it\\node\\workspace\\user', [] ]
+11 verbose readDependencies loading dependencies from f:\it\node\workspace\user\package.json
+12 verbose install where, deps [ 'f:\\it\\node\\workspace\\user', [] ]
+13 verbose install where, peers [ 'f:\\it\\node\\workspace\\user', [] ]
+14 verbose installManyTop reading for lifecycle f:\it\node\workspace\user\package.json
+15 info preinstall hello@
+16 verbose readDependencies loading dependencies from f:\it\node\workspace\user\package.json
+17 silly install resolved []
+18 info build f:\it\node\workspace\user
+19 info linkStuff hello@
+20 silly linkStuff hello@ has f:\it\node\workspace as its parent node_modules
+21 verbose linkBins hello@
+22 verbose linkMans hello@
+23 verbose rebuildBundles hello@
+24 info install hello@
+25 info postinstall hello@
+26 info prepublish hello@
+27 verbose validateInstall loading f:\it\node\workspace\user\package.json for validation
+28 info build C:\Users\chenjian\AppData\Roaming\npm\node_modules\hello
+29 info linkStuff hello@
+30 silly linkStuff hello@ has C:\Users\chenjian\AppData\Roaming\npm\node_modules as its parent node_modules
+31 silly linkStuff hello@ is part of a global install
+32 silly linkStuff hello@ is installed into a global node_modules
+33 silly linkStuff hello@ is installed into the top-level global node_modules
+34 verbose linkBins hello@
+35 verbose link bins [ { hello: 'hello' },
+35 verbose link bins   'C:\\Users\\chenjian\\AppData\\Roaming\\npm',
+35 verbose link bins   true ]
+36 verbose linkMans hello@
+37 verbose stack Error: ENOENT: no such file or directory, chmod 'C:\Users\chenjian\AppData\Roaming\npm\node_modules\hello\hello'
+37 verbose stack     at Error (native)
+38 verbose cwd f:\it\node\workspace\user
+39 error Windows_NT 6.1.7601
+40 error argv "d:\\Program Files\\nodejs\\node.exe" "d:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "link"
+41 error node v4.4.7
+42 error npm  v2.15.8
+43 error path C:\Users\chenjian\AppData\Roaming\npm\node_modules\hello\hello
+44 error code ENOENT
+45 error errno -4058
+46 error syscall chmod
+47 error enoent ENOENT: no such file or directory, chmod 'C:\Users\chenjian\AppData\Roaming\npm\node_modules\hello\hello'
+47 error enoent This is most likely not a problem with npm itself
+47 error enoent and is related to npm not being able to find a file.
+48 verbose exit [ -4058, true ]

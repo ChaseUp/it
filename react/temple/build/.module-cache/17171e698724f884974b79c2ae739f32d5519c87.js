@@ -1,0 +1,1 @@
+var arr = ["zhangsan","lisi","wangwu"]
